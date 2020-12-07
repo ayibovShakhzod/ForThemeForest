@@ -1,0 +1,97 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Montserrat Regular", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.display-1 {
+  font-size: 80px !important;
+}
+
+.display-2 {
+  font-size: 72px !important;
+}
+
+.display-3 {
+  font-size: 64px !important;
+}
+
+.display-4 {
+  font-size: 56px !important;
+}
+
+@media (max-width: 768px) {
+  .display-1 {
+    font-size: 56px !important;
+  }
+  .display-2 {
+    font-size: 50px !important;
+  }
+  .display-3 {
+    font-size: 42px !important;
+  }
+  .display-4 {
+    font-size: 36px !important;
+  }
+}
+.bg-primary{
+  background-color: #4D5BED !important;
+}
+.bg-danger{
+  background-color: #F9004D !important;
+}
+.bg-dark{
+  background-color: #1F1F25 !important;
+}
+.bg-light{
+  background-color: #F5F5F5 !important;
+}
+
+
+.avatar.avatar-ex-sm {
+  max-height: 25px;
+}
+
+.avatar.avatar-md-sm {
+  height: 45px;
+  width: 45px;
+}
+
+.avatar.avatar-small {
+  height: 65px;
+  width: 65px;
+}
+
+.avatar.avatar-medium {
+  height: 110px;
+  width: 110px;
+}
+
+.avatar.avatar-large {
+  height: 140px;
+  width: 140px;
+}
+
+.avatar.avatar-ex-large {
+  height: 180px;
+  width: 180px;
+}
+
+.rounded{
+  border-radius: 5px !important;
+}
+.shadow {
+  box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
+}
+
+body {
+  font-family: "Montserrat Regular", sans-serif;
+}
